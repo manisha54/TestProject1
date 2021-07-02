@@ -7,9 +7,10 @@ sub1 = float(input("enter your marks in first subject: "))
 sub2 = float(input("enter your marks in second subject: "))
 sub3 = float(input("enter your marks in third subject: "))
 sub4 = float(input("enter your marks in fourth subjec: "))
-total= sub1 +sub2 + sub3 + sub4
-print(f"the total marks  is {total}"
-percentage=total/4
+total_marked= sub1 +sub2 + sub3 + sub4/
+print(f"the total marks  is {total_marked}"
+percentage=total_marked/400*100
+print(f'your percentage is {percentage}')
 if percentage>70:
     grade="distinction"
 elif percentage>60:
@@ -19,5 +20,5 @@ elif percentage>4o:
 else:
     grade="fail"
 print(f'your grade is grade')
-print(f'your percentage is {percentage}')
+
 
